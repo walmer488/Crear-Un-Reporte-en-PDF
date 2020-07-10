@@ -1,0 +1,13 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div>
+    <div class="encabezado">
+        Sistema de Control Inventario
+        <a href="index" class="btn btn-primary btn-sm" role="button">Inicio</a>
+        <a href="categorias?opcion=listar" class="btn btn-primary btn-sm" role="button">Categorias</a>
+        <form class=" btn btn-sm" name="reporte" action="/RepoteEnPDF/pdf" method="POST">
+            <input class="btn btn-primary" type="submit" value="PDF" name="btnver" />
+        </form>
+    </div>
+    <div class="contenido"> 
+        
